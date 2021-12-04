@@ -61,7 +61,7 @@ namespace ExitGames.SportShooting
         {
             if (GameModel.Instance.CurrentPlayer != null)
             {
-                GameObject.DestroyImmediate(GameModel.Instance.CurrentPlayer.GameObject);
+                GameObject.Destroy(GameModel.Instance.CurrentPlayer.GameObject);
             }
 
             int positionIndex = 0;

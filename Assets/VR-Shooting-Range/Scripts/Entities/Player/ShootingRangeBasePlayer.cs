@@ -56,7 +56,7 @@ namespace ExitGames.SportShooting
 		public void OnDestroy()
         {
 			foreach (var rifle in rifles)
-				Destroy(rifle);
+				Destroy(rifle.gameObject);
 
 		}
 		
